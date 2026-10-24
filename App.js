@@ -74,7 +74,7 @@ function StudentRoster() {
 
       {students.map((student) => (
         <StudentCard
-          key={index}
+          key={student.id}
           name={student.name}
           course={student.course}
           units={student.units}
